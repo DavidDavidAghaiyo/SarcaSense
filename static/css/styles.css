@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('C:\Users\david\Desktop\ASTON\SarcaBrain\static\sarcabackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+#welcome {
+    cursor: pointer;
+}
+
+#inputBox {
+    margin-top: 20px;
+}
+
+.bubble {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.sarcastic {
+    background-color: #ffcccb;
+}
+
+.not-sarcastic {
+    background-color: #b0e57c;
+}

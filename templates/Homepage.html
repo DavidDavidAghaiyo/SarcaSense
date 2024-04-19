@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>SarcaSense</title>
+    <link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='css/styles') }} ">
+</head>
+
+<body>
+    <div id="welcome" onclick="showInput()">
+        <h1>
+            Welcome to SarcaSense
+        </h1>
+    </div>
+    <div id="inputBox" style="display: none;">
+        <input type="text" id="userInput" placeholder="Enter your text">
+        <button onclick="detectSarcasm()">Detect Sarcasm</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
