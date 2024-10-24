@@ -29,4 +29,3 @@ In the terminal, run the command 'gradio.app.py' or if you're using VS code, cli
 The website will be launched 
 Enter a sentence into the text box and click on the submit button
 
-ADD CHALLENGES I FACED AND FUTURE RECOMMENDATIONS/IMPROVEMENTS
